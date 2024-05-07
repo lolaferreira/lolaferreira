@@ -1,20 +1,19 @@
-###  Olá! Sou Lorena Ferreira 👋
-Sou Tecnóloga em Redes de Computadores pela Fatec Osasco e já trabalhei desenvolvendo sistemas de caixa em sistema Linux usando a linguagem C.
-- Esse espaço é destinado a códigos com conceitos base de programação. Verifique a lincensa para usufruir da melhor forma.
-- Eu programo em linguagem C/C++, mas já me aventurei em outras linguagens.
-- Atualmente tenho feito projetos com Arduino e estudado mais sobre os fundamentos da computação (eletrônica e afins).
-- Curiosidade: sou multiartista!
-<!--
-**lolaferreira/lolaferreira** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+# BASE DA TI POR LOLA FERREIRA 💻
+Esse espaço é destinado a códigos com conceitos base da computacao. 
+   + Verifique o `LICENSE` para usufruir da melhor forma.
+   + A ordem de aprendizagem dos codigos esta no numero inicial do nome do arquivo. inicie por `1_complementodeum_dois.cpp`
+   + **Esse ambiente esta em construcao!!** 🪵
+     
+### SOBRE MIM 🔖
+#### Lorena Ferreira e Tecnóloga em Redes de Computadores pela Fatec Osasco
+MINHA EXPERIENCIA 🔽
 
-Here are some ideas to get you started:
+     Já trabalhei desenvolvendo sistemas de ponto de venda para empresas de varejo. 
+     Sistema? Linux. ☕
+     Linguagem? C. 🦖
+Eu programo em linguagem C/C++, mas já me aventurei em outras linguagens, principalmente na faculdade.
+Atualmente, tenho feito projetos com Arduino e estudado mais sobre os fundamentos da computação (eletrônica e afins).
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+Curiosidade: **Sou Multiartista!**
+
+GOSTOU? ME MANDE UMA MENSAGEM!
