@@ -1,5 +1,9 @@
 ###  Olá! Sou Lorena Ferreira 👋
-
+Sou Tecnóloga em Redes de Computadores pela Fatec Osasco e já trabalhei desenvolvendo sistemas de caixa em sistema Linux usando a linguagem C.
+- Esse espaço é destinado a códigos com conceitos base de programação. Verifique a lincensa para usufruir da melhor forma.
+- Eu programo em linguagem C/C++, mas já me aventurei em outras linguagens.
+- Atualmente tenho feito projetos com Arduino e estudado mais sobre os fundamentos da computação (eletrônica e afins).
+- Curiosidade: sou multiartista!
 <!--
 **lolaferreira/lolaferreira** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
 
