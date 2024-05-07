@@ -4,7 +4,27 @@
 #include <Windows.h> //unistd.h no UNIX, para usar o sleep
 
 #define esc 27
-//operador bit a bit s� pode ser usado em tipo inteiro
+//DETALHE IMPORTANTE: operador bit a bit só pode ser usado em tipo inteiro
+/*EXPLICACAO DE COMO OCORRE A SOMA E SUBTRACAO
+1- Quando o numero é par gera carry (sobe um), impar não gera. Carry e verificado com a porta logica AND.
+tabela verdade XOR e AND:
+A B XOR   A B AND
+0 0  0    0 0  0
+1 0  1    1 0  0
+0 1  1    0 1  0
+1 1  0    1 1  1
+
+Como a soma acontece com essas portas?
+1+1 = 2
+0001 XOR 0001 = 0000 (xor e usado na soma, mas na pratica nao consegue acrescentar o carry, por isso resulta em zero)
+0001 AND 0001 = 0001 (and gera carry se ambas as entradas forem 1, no caso
+ha carry na primeira posicao que precisa ir para a posicao do lado)
+Muda o bit 1 do resultado de AND para a esquerda -> de 0001 para 0010.
+faz XOR de 0000 com 0010 = 0010 que resulta em 2.
+
+A subtracao seria uma soma de um numero positivo e um numero negativo, sabendo o complemento de um e dois, que pode ser visto no codigo
+complementodeum_dois, a compreensao do fenomeno fica melhor.
+*/
 
 int main(void)
 {
@@ -29,7 +49,7 @@ int main(void)
 
       if(carry_and > 0 || carry_and < 0)
       {
-        //caso for soma de numeros negativos o carry dar� negativo
+        //caso for soma de numeros negativos o carry dará negativo
         printf("CARRY! %d AND %d: %d\n", num_1, num_2, carry_and);
         auxiliar = soma_xor;
       }
