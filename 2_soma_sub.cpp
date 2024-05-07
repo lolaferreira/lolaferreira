@@ -1,9 +1,15 @@
+// AUTORA: Lorena Ferreira
+// ANO: 2024
+// LEIA A LICENSA ANTES DE USAR
+// FICOU COM DUVIDAS, TEM SUGESTOES, GOSTOU? ME MANDE UMA MENSAGEM!
+
 #include <stdlib.h>
 #include <stdio.h>
 #include <conio.h>
 #include <Windows.h> //unistd.h no UNIX, para usar o sleep
 
 #define esc 27
+
 //DETALHE IMPORTANTE: operador bit a bit só pode ser usado em tipo inteiro
 /*EXPLICACAO DE COMO OCORRE A SOMA E SUBTRACAO
 1- Quando o numero é par gera carry (sobe um), impar não gera. Carry e verificado com a porta logica AND.
