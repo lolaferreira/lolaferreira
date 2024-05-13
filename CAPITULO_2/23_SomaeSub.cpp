@@ -8,8 +8,8 @@
 
 #include <stdlib.h>
 #include <stdio.h>
-#include <conio.h>
-#include <Windows.h> //unistd.h no UNIX, para usar o sleep
+#include <ncurses.h>
+#include <termios.h>
 
 #define esc 27
 
@@ -70,7 +70,7 @@ int main(void)
       
       while(carry_and > 0 || carry_and < 0)
       {
-        bit_wise = carry_and<<1;
+        bit_wise = carry_and << 1;
         printf("Mudando 1 bit para esquerda: de %d para %d\n", carry_and, bit_wise);
         resultado_xor = auxiliar^bit_wise;
         printf("%d XOR %d: %d\n", soma_xor, bit_wise, resultado_xor); 
@@ -82,10 +82,8 @@ int main(void)
         }
       }
       printf("\nRESULTADO FINAL de %d + %d = %d\n\n", num_1, num_2, resultado_xor); 
-      system("pause"); 
-      system("cls");
 
-    }while(_getch() != esc);
-    system("pause");
-    exit(0);
+    }while(_getchar() != esc);
+    
+    exit(0); //função que faz o mesmo que o return
 }
