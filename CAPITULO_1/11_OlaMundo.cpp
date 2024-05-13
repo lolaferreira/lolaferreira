@@ -60,13 +60,11 @@ por meio de um marcador, indicado pela porcentagem (%), seguido pelo código de 
 */
 
 #include <stdio.h>
-//#include <stdlib.h> //opcional: biblioteca para uso da função system(), descomente para usar
 
 int main(void)
 {
     printf("hello world!\n");
-    
-    //system("pause");//opcional: use caso a execução esteja rápida demais. Irá pedir para teclar qualquer tecla para prosseguir
+
     return 0; // return é um comando de desvio para retornar para aonde a função main foi chamada (processo chamador), encerrando a execução.
     // Retorno de inteiro 0, por padrão ANSI, indica sucesso na execução. Ele não é usado para funções do tipo void, ou seja, que não retornam valor.
 }
