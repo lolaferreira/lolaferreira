@@ -59,7 +59,7 @@ por meio de um marcador, indicado pela porcentagem (%), seguido pelo código de 
 */
 
 #include <stdio.h>
-//#include <stdlib.h> //opcional: biblioteca para uso da função system(), descomente para usar
+//#include <string.h> //opcional: biblioteca para uso da função system(), descomente para usar
 
 int main(void)
 {
