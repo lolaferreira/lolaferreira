@@ -83,7 +83,7 @@ int main(void)
       }
       printf("\nRESULTADO FINAL de %d + %d = %d\n\n", num_1, num_2, resultado_xor); 
 
-    }while(_getchar() != esc);
+    }while(getchar() != esc);
     
     exit(0); //função que faz o mesmo que o return
 }
