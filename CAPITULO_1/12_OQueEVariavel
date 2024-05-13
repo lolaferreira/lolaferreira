@@ -34,12 +34,12 @@ int main(void)
     int   var_inteiro   = 0;
     float var_flutuante = 0.00f;
     double var_duplo    = 0.000000
-    char var_caractere[2] = "000";
+    char var_caractere  = 95;
     
     printf("a variavel var_inteiro   %d\n", var_inteiro);
-    printf("a variavel var_flutuante %d\n", var_flutuante);
+    printf("a variavel var_flutuante %f\n", var_flutuante);
     printf("a variavel var_duplo     %d\n", var_duplo);
-    printf("a variavel var_caractere %d\n", var_caractere);
+    printf("a variavel var_caractere %c\n", var_caractere);
 
     return 0;
 }
