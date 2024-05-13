@@ -6,14 +6,6 @@
 //OBS.: cada projeto tem sua característica e estrutura. Verifique o ambiente e o padrão de desenvolvimento.
 //Esse conteúdo tem por finalidade o estudo, a implementação dele em sistemas maiores varia de acordo com o contexto.
 
-
-#include <stdlib.h>
-#include <stdio.h>
-#include <string.h>
-#include <conio.h>
-
-#define esc 27 //macro para tecla ESC
-
 /*EXPLICACAO DO CODIGO
 1- Quando o numero é par gera carry (sobe um), impar não gera. Carry e verificado com a porta logica AND.
 tabela verdade XOR e AND:
@@ -55,6 +47,14 @@ ter numeros positivos e negativos) e o unsigned (os numeros sao sempre positivos
 4 - Nesse codigo da para ver que os numeros são compatíveis ao tipo de dado que pode contêlo,
 entao 10 é int, mas 60000 é unsigned e 100000 é long
 */
+
+#include <stdlib.h>
+#include <stdio.h>
+#include <string.h>
+#include <conio.h>
+
+#define esc 27 //macro para tecla ESC
+
 int main(void) 
 {
     int num       = 0;
@@ -93,6 +93,5 @@ int main(void)
     }while(_getch() != esc);//sai apenas se apertar esc
     
     system("pause");
-    return 0;//retorna sucesso, em sistema embarcado e importante cuidar para os retornos
-    //seguirem um padrao para o SO voltar a ter controle e nao ficar com processos fantasmas
+    return 0;//retorna sucesso
 }
