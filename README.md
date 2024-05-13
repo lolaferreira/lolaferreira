@@ -1,12 +1,20 @@
 # BASE DA TI POR LOLA FERREIRA 💻
-Esse espaço é destinado a códigos com conceitos base da computação. 
+Esse espaço é destinado a códigos com conceitos base da computação ou seja, tem finalidade de estudo. 
    + Verifique o `LICENSE` para usufruir da melhor forma.
-   + A ordem de aprendizagem dos códigos está no número inicial do nome do arquivo. inicie por `../CAPITULO_1`
+   + A ordem de aprendizagem dos códigos está no número inicial do nome do arquivo. Inicie pela pasta `../CAPITULO_1`
+     + o primeiro numero indica o capitulo.
+     + o segundo numero indica a sequencia dele dentro do capitulo
    + **Esse ambiente está em construção!!** 🪵
      
 # DESCRIÇÃO DOS CAPÍTULOS
   + CAPITULO 1: discorre acerca dos códigos mais usuais, apresentando conceitos introdutórios.
   + CAPITULO 2: discorre acerca do uso de operadores bit a bit e a implementação deles para soma, subtracao e afins.
+#### OBS: os códigos podem conter instruções indicadas como opcionais, mas que estão comentadas (não irão executar). Descomente para usar. Como identificar um comentário? //seu comentario ou /* seu comentario * /. Como Descomentar? Apague ou // ou /* */. 
+Exemplo de intrução opcional comentada
+- //#include <stdlib.h> //opcional: biblioteca para uso da função system(), descomente para usar
+
+Exemplo de intrução opcional descomentada
+- #include <stdlib.h> //opcional: biblioteca para uso da função system(), descomente para usar
 
 ### SOBRE MIM 🔖
 #### Lorena Ferreira é Tecnóloga em Redes de Computadores pela Fatec Osasco
