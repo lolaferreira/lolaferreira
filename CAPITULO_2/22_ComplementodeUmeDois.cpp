@@ -1,6 +1,5 @@
 // AUTORA: Lorena Ferreira
 // ANO: 2024
-// Para ambiente Windows
 // LEIA A LICENSA ANTES DE USAR
 // FICOU COM DUVIDAS, TEM SUGESTOES, GOSTOU? ME MANDE UMA MENSAGEM!
 
@@ -52,7 +51,7 @@ entao 10 é int, mas 60000 é unsigned e 100000 é long
 #include <stdlib.h>
 #include <stdio.h>
 #include <string.h>
-#include <conio.h>
+#include <termios.h>
 
 #define esc 27 //macro para tecla ESC
 
@@ -69,30 +68,31 @@ int main(void)
         printf("digite um numero positivo: \n");
         scanf("%d", &num); //quando numero
         
-        if(num<0){ system("cls"); continue;} //se o numero colocado for negativo, limpa tela e pede numero novamente
+        if(num < 0) continue; //se o numero colocado for negativo, pede numero novamente
+                
         printf("numero:%d\n", num); //mostra numero colocado
+                
         comp_um = ~num;//inverte numero (comp de um)
         printf("complemento de um:%d\n\n"  ,   comp_um);
+                
         comp_dois = comp_um^1; //(faz xor de 1 ao numero, comp de dois)
         carry = comp_um&1; //verifica carry
-        if(carry>0) auxiliar = comp_dois; //guarda o resultado no auxiliar para fazer a conta no loop
-        while(carry>0)
+        if(carry > 0) auxiliar = comp_dois; //guarda o resultado no auxiliar para fazer a conta no loop
+        
+        while(carry > 0)
         {
           //loop para continuar a conta enquanto houver carry
           printf("carry:%d\n", carry);
 
-          carry = carry<<1; // muda um bit para esquerda para receber o carry na posicao certa
+          carry = carry << 1; // muda um bit para esquerda para receber o carry na posicao certa
           comp_dois = auxiliar^carry;//soma carry
           printf("aux %d XOR carry %d:%d\n\n", auxiliar, carry, comp_dois);
           carry = auxiliar&carry;//verifica carry
-          auxiliar = comp_dois;
+          auxiliar = comp_dois; //guarda o resultado no auxiiar
         }
         printf("complemento de dois:%d\n\n", comp_dois);
-        system("pause");//espera clicar alguma tecla
-        system("cls");//limpa tela
         
-    }while(_getch() != esc);//sai apenas se apertar esc
-    
-    system("pause");
+    }while(getchar() != esc);//sai apenas se apertar esc
+
     return 0;//retorna sucesso
 }
