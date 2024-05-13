@@ -3,7 +3,7 @@ Esse espaço é destinado a códigos com conceitos base da computação ou seja,
    + Verifique o `LICENSE` para usufruir da melhor forma.
    + A ordem de aprendizagem dos códigos está no número inicial do nome do arquivo. Inicie pela pasta `../CAPITULO_1`
      + o primeiro numero indica o capitulo.
-     + o segundo numero indica a sequencia dele dentro do capitulo
+     + o segundo numero indica a sequencia dentro do capitulo
    + **Esse ambiente está em construção!!** 🪵
      
 # DESCRIÇÃO DOS CAPÍTULOS
