@@ -1,9 +1,13 @@
 # BASE DA TI POR LOLA FERREIRA 💻
 Esse espaço é destinado a códigos com conceitos base da computação. 
    + Verifique o `LICENSE` para usufruir da melhor forma.
-   + A ordem de aprendizagem dos códigos está no número inicial do nome do arquivo. inicie por `../CAP_UM`
+   + A ordem de aprendizagem dos códigos está no número inicial do nome do arquivo. inicie por `../CAPITULO_1`
    + **Esse ambiente está em construção!!** 🪵
      
+# DESCRIÇÃO DOS CAPÍTULOS
+  + CAPITULO 1: discorre acerca dos códigos mais usuais, apresentando conceitos introdutórios.
+  + CAPITULO 2: discorre acerca do uso de operadores bit a bit e a implementação deles para soma, subtracao e afins.
+
 ### SOBRE MIM 🔖
 #### Lorena Ferreira é Tecnóloga em Redes de Computadores pela Fatec Osasco
 MINHA EXPERIENCIA 🔽
