@@ -1,5 +1,6 @@
-// Criado por: Lorena Ferreira
-//ano: maio de 2024
+// CRIADO POR: Lorena Ferreira
+// ANO: maio de 2024
+// Para ambiente Windows
 // LEIA A LICENSA ANTES DE USAR
 // FICOU COM DUVIDAS, TEM SUGESTOES, GOSTOU? ME MANDE UMA MENSAGEM!
 
@@ -59,7 +60,7 @@ por meio de um marcador, indicado pela porcentagem (%), seguido pelo código de 
 */
 
 #include <stdio.h>
-//#include <string.h> //opcional: biblioteca para uso da função system(), descomente para usar
+//#include <stdlib.h> //opcional: biblioteca para uso da função system(), descomente para usar
 
 int main(void)
 {
