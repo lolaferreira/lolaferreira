@@ -16,6 +16,9 @@ Exemplo de intrução opcional comentada
 Exemplo de intrução opcional descomentada
 - #include <stdlib.h> //opcional: biblioteca para uso da função system(), descomente para usar
 
+# MEU ARDUINO
+Com intenção similar, apresento projetos pessoais para serem feitos utilizando Arduino ou qualquer outro tipo de plataforma de programação de prototipagem eletrônica.
+
 ### SOBRE MIM 🔖
 #### Lorena Ferreira é Tecnóloga em Redes de Computadores pela Fatec Osasco
 MINHA EXPERIENCIA 🔽
