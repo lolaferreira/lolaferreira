@@ -1,0 +1,45 @@
+// CRIADO POR: Lorena Ferreira
+// ANO: maio de 2024
+// Para ambiente Windows
+// LEIA A LICENSA ANTES DE USAR
+// FICOU COM DUVIDAS, TEM SUGESTOES, GOSTOU? ME MANDE UMA MENSAGEM!
+
+//OBS.: cada projeto tem sua característica e estrutura. Verifique o ambiente e o padrão de desenvolvimento.
+//Esse conteúdo tem por finalidade o estudo, a implementação dele em sistemas maiores varia de acordo com o contexto.
+
+
+/*EXPLICACAO DO CODIGO
+
+O que é variável?
+Pense a variável é como se fosse uma caixa na qual será guardada uma informação.
+Essa caixa precisa ser sinalizada com o tipo de informação que ela pode guardar, que podem ser:
+TIPO    TAMANHO (em bits)  DESCRICAO
+char      8                caractectere (segue a tabela ASCII)
+int       16               inteiro 
+float     32               ponto flutuante (casas decimais depois da vígula)
+double    64               ponto flutuante de dupla precisão
+void                       vazio
+
+A atribuição de um valor deve ser feita por meio do sinal de igualinformação é guardada colocando o sinal de igual
+
+SUA DECLARACAO 
+TIPO_VARIAVEL NOME_VARIAVEL = VALOR_VARIAVEL;
+COMO NOMEAR
+*/
+
+#include <stdio.h>
+
+int main(void)
+{
+    int   var_inteiro   = 0;
+    float var_flutuante = 0.00f;
+    double var_duplo    = 0.000000
+    char var_caractere[2] = "000";
+    
+    printf("a variavel var_inteiro   %d\n", var_inteiro);
+    printf("a variavel var_flutuante %d\n", var_flutuante);
+    printf("a variavel var_duplo     %d\n", var_duplo);
+    printf("a variavel var_caractere %d\n", var_caractere);
+
+    return 0;
+}
