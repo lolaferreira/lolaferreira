@@ -1,5 +1,7 @@
 // Criado por: Lorena Ferreira
 //ano: maio de 2024
+// LEIA A LICENSA ANTES DE USAR
+// FICOU COM DUVIDAS, TEM SUGESTOES, GOSTOU? ME MANDE UMA MENSAGEM!
 
 //OBS.: cada projeto tem sua característica e estrutura. Verifique o ambiente e o padrão de desenvolvimento.
 //Esse conteúdo tem por finalidade o estudo, a implementação dele em sistemas maiores varia de acordo com o contexto.
