@@ -1,6 +1,5 @@
 // CRIADO POR: Lorena Ferreira
 // ANO: maio de 2024
-// Para ambiente Windows
 // LEIA A LICENSA ANTES DE USAR
 // FICOU COM DUVIDAS, TEM SUGESTOES, GOSTOU? ME MANDE UMA MENSAGEM!
 
@@ -20,26 +19,32 @@ float     32               ponto flutuante (casas decimais depois da vígula)
 double    64               ponto flutuante de dupla precisão
 void                       vazio
 
-A atribuição de um valor deve ser feita por meio do sinal de igualinformação é guardada colocando o sinal de igual
+A atribuição de um valor deve ser feita por meio do sinal de igual seguido do valor e ponto e vírgula.
 
-SUA DECLARACAO 
+COMO DECLARAR? 
 TIPO_VARIAVEL NOME_VARIAVEL = VALOR_VARIAVEL;
-COMO NOMEAR
+
+COMO NOMEAR?
+- NÃO pode começar por numero.
+- NÃO pode ter caractere especial, como: *, ... e outros. Pode sublinhado (_).
+- NÃO pode ser nome de alguma palavra-chave da linguagem, como: if, else, int e afins.
+- NÃO pode nome de funções.
+- Caixa alta ou baixa indica variáveis distintas, ex.: x e X são variaveis diferentes.
 */
 
 #include <stdio.h>
 
 int main(void)
 {
-    int   var_inteiro   = 0;
-    float var_flutuante = 0.00f;
-    double var_duplo    = 0.000000
-    char var_caractere  = 95;
+    int    var_inteiro   = 140.7648352;
+    float  var_flutuante = 140.7648352;
+    double var_duplo     = 140.7648352;
+    char   var_caractere = 65; //decimal ASCII para A ("a" maiúsculo)
     
-    printf("a variavel var_inteiro   %d\n", var_inteiro);
-    printf("a variavel var_flutuante %f\n", var_flutuante);
-    printf("a variavel var_duplo     %d\n", var_duplo);
-    printf("a variavel var_caractere %c\n", var_caractere);
+    printf("a variavel var_inteiro   %d\n"  , var_inteiro  );//mostra a parte inteira
+    printf("a variavel var_flutuante %.3f\n", var_flutuante); //mostra a inteira com tres casas depois da vígula (indicado pelo %.3f)
+    printf("a variavel var_duplo     %lf\n" , var_duplo    );
+    printf("a variavel var_caractere %c\n"  , var_caractere);//mostra o caractere assocido ao inteiro 65
 
     return 0;
 }
