@@ -6,6 +6,12 @@ Esse espaço é destinado a códigos com conceitos base da computação ou seja,
      + o segundo numero indica a sequencia dentro do capitulo
    + **Esse ambiente está em construção!!** 🪵
      
+# ESCLARECENDO COMHECIMENTOS PRÉVIOS
+  + SINAL DIGITAL: tem a ver com dado discreto e representa dois estados posiveis de um contexto, ex.: 5volts e 0volts, 1 e 0...
+  + SINAL ANALÓGICO: tem a ver com dado continuo e representa um range de valores, ex: de 0volts a 5volts.
+  + PORTAS LÓGICAS: são abstrações de circuitos eletrônicos que utilizam transistores para determinar o sinal de saida de acordo com o de entrada. Cada porta apresenta suas probabilidades de saída. os sinais tanto de saida quanto de entrada são discretos. Através deles são criados circuitos mais complexos como SR-latch, D-FlipFlop e afins.
+Alguns deles são: AND, NAND, OR, NOR, XOR... É possivel simular as portas com circuitos simples com entrada sendo interruptor e saida algum LED, os circuitos que criei no Tinkecad podem ajudar na visualizacao prática inicial: 
+
 # DESCRIÇÃO DOS CAPÍTULOS
   + CAPITULO 1: discorre acerca dos códigos mais usuais, apresentando conceitos introdutórios.
   + CAPITULO 2: discorre acerca do uso de operadores bit a bit e a implementação deles para soma, subtracao e afins.
