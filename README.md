@@ -6,7 +6,7 @@ Esse espaço é destinado a códigos com conceitos base da computação ou seja,
      + o segundo numero indica a sequencia dentro do capitulo
    + **Esse ambiente está em construção!!** 🪵
      
-> [!TIP] ESCLARECENDO COMHECIMENTOS PRÉVIOS
+# ESCLARECENDO COMHECIMENTOS PRÉVIOS
   + SINAL DIGITAL: tem a ver com dado discreto e representa dois estados posiveis de um contexto, ex.: 5volts e 0volts, 1 e 0...
   + SINAL ANALÓGICO: tem a ver com dado continuo e representa um range de valores, ex: de 0volts a 5volts.
   + PULSE WIDTH MODULATION(PWM): é uma forma de emular sinal analogico a partir da variação de estado do sinal digital.
