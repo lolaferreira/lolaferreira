@@ -11,7 +11,7 @@ Esse espaço é destinado a códigos com conceitos base da computação ou seja,
   + SINAL ANALÓGICO: tem a ver com dado continuo e representa um range de valores, ex: de 0volts a 5volts.
   + PORTAS LÓGICAS: são abstrações de circuitos eletrônicos que utilizam transistores para determinar o sinal de saida de acordo com o de entrada. Cada porta apresenta suas probabilidades de saída. os sinais tanto de saida quanto de entrada são discretos. Através deles são criados circuitos mais complexos como SR-latch, D-FlipFlop e afins.
 Alguns deles são: AND, NAND, OR, NOR, XOR... É possivel simular as portas com circuitos simples com entrada sendo interruptor e saida algum LED, os circuitos que criei no Tinkecad podem ajudar na visualizacao prática inicial: 
-
+"https://www.tinkercad.com/things/8OJ8kUmItA7-portas-logicas?sharecode=ztWGQH-5qrvGBnHb0iQ9qzxiCDS4evXeUWgIeXcAoXo"
 # DESCRIÇÃO DOS CAPÍTULOS
   + CAPITULO 1: discorre acerca dos códigos mais usuais, apresentando conceitos introdutórios.
   + CAPITULO 2: discorre acerca do uso de operadores bit a bit e a implementação deles para soma, subtracao e afins.
