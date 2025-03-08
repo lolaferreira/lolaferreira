@@ -409,7 +409,7 @@ void loop(void)
 
   textoEmSimbolos = receberMensagemDeTextoEmSimbolo();
 
-  if(sizeof(textoEmSimbolos) > 0)
+  if(textoEmSimbolos.length() > 0)
   {
     char textoEmDitDah [100*sizeof(textoEmSimbolos)] = "";
     memset(textoEmDitDah, 0, sizeof(textoEmDitDah));
